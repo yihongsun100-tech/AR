@@ -1,0 +1,14 @@
+<model-viewer src="kunan2.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" auto-rotate>
+    <button class="Hotspot" slot="hotspot-1" data-position="0.005201421702520975m 0.2554032436551805m 0.0354431665464273m" data-normal="-0.482157969785839m 0.5911821094190939m 0.6465503891227572m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">柯南</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
